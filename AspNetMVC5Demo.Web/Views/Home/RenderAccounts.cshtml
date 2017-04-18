@@ -1,0 +1,23 @@
+﻿@using AspNetMVC5Demo.Dtos
+@using System.Linq;
+
+@{
+    Layout = null;
+    IList<AccountDto> accounts = (IList<AccountDto>)ViewBag.accounts;
+}
+
+@{
+    if (accounts != null && accounts.Any())
+    {
+        foreach (dynamic account in accounts)
+        {
+            <tr>
+                <td>@account.Id</td>
+                <td>@account.Name</td>
+                <td>
+                    <a href="@Url.Action("DeleteAccount", "Home", new { id = account.Id ,})">删除</a>
+                </td>
+            </tr>
+        }
+    }
+}

@@ -1,0 +1,26 @@
+﻿@using AspNetMVC5Demo.Dtos
+@using System.Linq;
+
+@{
+    Layout = null;
+    IList<AbortTaskDto> tasks = (IList<AbortTaskDto>)ViewBag.tasks;
+}
+
+@{
+    if (tasks != null && tasks.Any())
+    {
+        foreach (dynamic task in tasks)
+        {
+            <tr>
+                <td>@task.Id</td>
+                <td>@task.Name</td>
+                <td>@task.Content</td>
+                <td>@task.From</td>
+                <td>@task.To</td>
+                <td>
+                    <a href="@Url.Action("DeleteTask", "Home", new { id = task.Id ,})">删除</a>
+                </td>
+            </tr>
+        }
+    }
+}

@@ -1,0 +1,70 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <div>
+            <hr />
+            <h4>Account</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <td>编号</td>
+                        <td>名称</td>
+                        <td>其他</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        Html.RenderAction("RenderAccounts", "Home");
+                    }
+                </tbody>
+            </table>
+            <hr />
+            <div>
+                @Html.Partial("~/Views/_Partial/AddAccount.cshtml")
+            </div>
+        </div>
+        <div>
+            <hr />
+            <h4>Task</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <td>编号</td>
+                        <td>名称</td>
+                        <td>内容</td>
+                        <td>指派人</td>
+                        <td>完成人</td>
+                        <td>其他</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        Html.RenderAction("RenderTasks", "Home");
+                    }
+                </tbody>
+            </table>
+            <hr />
+            <div>
+                @Html.Partial("~/Views/_Partial/AddTask.cshtml")
+            </div>
+        </div>
+        <div>
+            <hr />
+            <h4>分配任务</h4>
+            <div>
+                @Html.Partial("~/Views/_Partial/Translate.cshtml")
+            </div>
+        </div>
+    </div>
+</body>
+</html>

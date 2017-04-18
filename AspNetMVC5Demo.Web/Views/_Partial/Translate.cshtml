@@ -1,0 +1,19 @@
+﻿<form action="@Url.Action("Translate","Home",new {})" method="post">
+    <div>
+        @Html.Label("FromId", "分配人", new { })
+        @Html.TextBox("FromId", string.Empty, null, new { })
+    </div>
+    <div>
+        @Html.Label("ToId", "指定给", new { })
+        @Html.TextBox("ToId", string.Empty, null, new { })
+    </div>
+    <div>
+        @Html.Label("TaskId", "任务ID", new { })
+        @Html.TextBox("TaskId", string.Empty, null, new { })
+    </div>
+    <div>
+        <button type="submit">
+            保存
+        </button>
+    </div>
+</form>

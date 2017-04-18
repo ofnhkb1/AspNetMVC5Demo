@@ -1,0 +1,19 @@
+﻿一共运行 18 个 IHttpModule
+OutputCache
+Session
+WindowsAuthentication
+FormsAuthentication
+DefaultAuthentication
+RoleManager
+UrlAuthorization
+FileAuthorization
+AnonymousIdentification
+Profile
+UrlMappingsModule
+ServiceModel-4.0
+UrlRoutingModule-4.0
+ScriptModule-4.0
+RemoveServer
+__DynamicModule_Autofac.Integration.Mvc.RequestLifetimeHttpModule, Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da_771aa1c1-e830-447c-b725-2b4a5c7a8f04
+__DynamicModule_Microsoft.VisualStudio.Web.PageInspector.Runtime.Tracing.PageInspectorHttpModule, Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a_a6bbba55-d96b-40b3-b734-0bf219a2d517
+__DynamicModule_System.Web.WebPages.WebPageHttpModule, System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35_377d9de7-3756-4327-b484-890c9a6eb7f7

@@ -1,0 +1,167 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{A41A2A92-6305-4994-A383-598AEBB3259F}"
+	ProjectSection(SolutionItems) = preProject
+		Library\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll = Library\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+		Library\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml = Library\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Web", "AspNetMVC5Demo.Web\AspNetMVC5Demo.Web.csproj", "{7285B7C6-F744-4797-947F-738742E8B7FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC5", "MVC5", "{1FC23A3B-AF55-4459-BC89-93D1BB9E9BF9}"
+	ProjectSection(SolutionItems) = preProject
+		Library\MVC5\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll = Library\MVC5\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+		Library\MVC5\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml = Library\MVC5\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+		Library\MVC5\Microsoft.Web.Infrastructure.dll = Library\MVC5\Microsoft.Web.Infrastructure.dll
+		Library\MVC5\System.Web.Helpers.dll = Library\MVC5\System.Web.Helpers.dll
+		Library\MVC5\System.Web.Helpers.xml = Library\MVC5\System.Web.Helpers.xml
+		Library\MVC5\System.Web.Mvc.dll = Library\MVC5\System.Web.Mvc.dll
+		Library\MVC5\System.Web.Mvc.xml = Library\MVC5\System.Web.Mvc.xml
+		Library\MVC5\System.Web.Razor.dll = Library\MVC5\System.Web.Razor.dll
+		Library\MVC5\System.Web.Razor.xml = Library\MVC5\System.Web.Razor.xml
+		Library\MVC5\System.Web.WebPages.Deployment.dll = Library\MVC5\System.Web.WebPages.Deployment.dll
+		Library\MVC5\System.Web.WebPages.Deployment.xml = Library\MVC5\System.Web.WebPages.Deployment.xml
+		Library\MVC5\System.Web.WebPages.dll = Library\MVC5\System.Web.WebPages.dll
+		Library\MVC5\System.Web.WebPages.Razor.dll = Library\MVC5\System.Web.WebPages.Razor.dll
+		Library\MVC5\System.Web.WebPages.Razor.xml = Library\MVC5\System.Web.WebPages.Razor.xml
+		Library\MVC5\System.Web.WebPages.xml = Library\MVC5\System.Web.WebPages.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NLog", "NLog", "{769754A4-4619-4DE6-9586-9D7C09839704}"
+	ProjectSection(SolutionItems) = preProject
+		Library\NLog\NLog.dll = Library\NLog\NLog.dll
+		Library\NLog\NLog.xml = Library\NLog\NLog.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autofac", "Autofac", "{C0303411-9483-4570-B473-235E5B9B8E19}"
+	ProjectSection(SolutionItems) = preProject
+		Library\Autofac\Autofac.dll = Library\Autofac\Autofac.dll
+		Library\Autofac\Autofac.Integration.Mvc.dll = Library\Autofac\Autofac.Integration.Mvc.dll
+		Library\Autofac\Autofac.Integration.Mvc.xml = Library\Autofac\Autofac.Integration.Mvc.xml
+		Library\Autofac\Autofac.xml = Library\Autofac\Autofac.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.LogAbstractions", "AspNetMVC5Demo.LogAbstractions\AspNetMVC5Demo.LogAbstractions.csproj", "{1B896BCC-E676-454D-B56D-F28550E8CA77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Infrastructure", "AspNetMVC5Demo.Infrastructure\AspNetMVC5Demo.Infrastructure.csproj", "{426D7867-01CB-4AAE-A698-F8259952CC67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{140F5452-7A49-46B1-B8A3-A69855004C9F}"
+	ProjectSection(SolutionItems) = preProject
+		Library\EntityFramework\EntityFramework.dll = Library\EntityFramework\EntityFramework.dll
+		Library\EntityFramework\EntityFramework.SqlServer.dll = Library\EntityFramework\EntityFramework.SqlServer.dll
+		Library\EntityFramework\EntityFramework.SqlServer.xml = Library\EntityFramework\EntityFramework.SqlServer.xml
+		Library\EntityFramework\EntityFramework.xml = Library\EntityFramework\EntityFramework.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Domian.Model", "AspNetMVC5Demo.Domian.Model\AspNetMVC5Demo.Domian.Model.csproj", "{8218EDAE-CCD2-4F7C-B39B-7405CA2E03B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.ApplicaitonServices", "AspNetMVC5Demo.ApplicaitonServices\AspNetMVC5Demo.ApplicaitonServices.csproj", "{6ED0AA11-2751-4216-A718-C72290C4E174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Infrastructure.DependencyInjection", "AspNetMVC5Demo.Infrastructure.DependencyInjection\AspNetMVC5Demo.Infrastructure.DependencyInjection.csproj", "{14954374-5A57-4673-84F9-3C37FDB9D247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Infrastructure.Repository", "AspNetMVC5Demo.Infrastructure.Repository\AspNetMVC5Demo.Infrastructure.Repository.csproj", "{9F774425-FB6F-4C50-AADC-A1DA78405C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.ApplicaitonServices.DependencyInjection", "AspNetMVC5Demo.ApplicaitonServices.DependencyInjection\AspNetMVC5Demo.ApplicaitonServices.DependencyInjection.csproj", "{5DEF79EA-7184-4603-B91D-B7539D3AB151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.ApplicaitonServices.Interfaces", "AspNetMVC5Demo.ApplicaitonServices.Interfaces\AspNetMVC5Demo.ApplicaitonServices.Interfaces.csproj", "{86514739-1BF0-4449-B479-5C284E2CEB29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Dtos", "AspNetMVC5Demo.Dtos\AspNetMVC5Demo.Dtos.csproj", "{005667DE-F068-4816-829A-CE907FD670DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Domian.Repository", "AspNetMVC5Demo.Domian.Repository\AspNetMVC5Demo.Domian.Repository.csproj", "{258EC26A-4FC6-483C-AC93-46C79F60066C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Domian.Services", "AspNetMVC5Demo.Domian.Services\AspNetMVC5Demo.Domian.Services.csproj", "{2DFF5CA7-76AA-465B-81F0-CEFB26912AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC5Demo.Domian.Services.DependencyInjection", "AspNetMVC5Demo.Domian.Services.DependencyInjection\AspNetMVC5Demo.Domian.Services.DependencyInjection.csproj", "{C35E55FF-8B3C-4B4C-B339-F129BAC0A4D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{21B8C38C-D7CF-4F36-8E20-3D371393AC89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{037294A5-99A2-4737-B308-AA4C007E4D32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{21197F81-C804-4ED4-913B-25379D006CB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{98B481A4-A0E4-4B8E-8E73-2ECEF1473F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7285B7C6-F744-4797-947F-738742E8B7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7285B7C6-F744-4797-947F-738742E8B7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7285B7C6-F744-4797-947F-738742E8B7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7285B7C6-F744-4797-947F-738742E8B7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B896BCC-E676-454D-B56D-F28550E8CA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B896BCC-E676-454D-B56D-F28550E8CA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B896BCC-E676-454D-B56D-F28550E8CA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B896BCC-E676-454D-B56D-F28550E8CA77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426D7867-01CB-4AAE-A698-F8259952CC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426D7867-01CB-4AAE-A698-F8259952CC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426D7867-01CB-4AAE-A698-F8259952CC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426D7867-01CB-4AAE-A698-F8259952CC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8218EDAE-CCD2-4F7C-B39B-7405CA2E03B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8218EDAE-CCD2-4F7C-B39B-7405CA2E03B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8218EDAE-CCD2-4F7C-B39B-7405CA2E03B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8218EDAE-CCD2-4F7C-B39B-7405CA2E03B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED0AA11-2751-4216-A718-C72290C4E174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED0AA11-2751-4216-A718-C72290C4E174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED0AA11-2751-4216-A718-C72290C4E174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED0AA11-2751-4216-A718-C72290C4E174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14954374-5A57-4673-84F9-3C37FDB9D247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14954374-5A57-4673-84F9-3C37FDB9D247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14954374-5A57-4673-84F9-3C37FDB9D247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14954374-5A57-4673-84F9-3C37FDB9D247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F774425-FB6F-4C50-AADC-A1DA78405C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F774425-FB6F-4C50-AADC-A1DA78405C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F774425-FB6F-4C50-AADC-A1DA78405C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F774425-FB6F-4C50-AADC-A1DA78405C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEF79EA-7184-4603-B91D-B7539D3AB151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEF79EA-7184-4603-B91D-B7539D3AB151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEF79EA-7184-4603-B91D-B7539D3AB151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEF79EA-7184-4603-B91D-B7539D3AB151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86514739-1BF0-4449-B479-5C284E2CEB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86514739-1BF0-4449-B479-5C284E2CEB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86514739-1BF0-4449-B479-5C284E2CEB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86514739-1BF0-4449-B479-5C284E2CEB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005667DE-F068-4816-829A-CE907FD670DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005667DE-F068-4816-829A-CE907FD670DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005667DE-F068-4816-829A-CE907FD670DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005667DE-F068-4816-829A-CE907FD670DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258EC26A-4FC6-483C-AC93-46C79F60066C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258EC26A-4FC6-483C-AC93-46C79F60066C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258EC26A-4FC6-483C-AC93-46C79F60066C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258EC26A-4FC6-483C-AC93-46C79F60066C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFF5CA7-76AA-465B-81F0-CEFB26912AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFF5CA7-76AA-465B-81F0-CEFB26912AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFF5CA7-76AA-465B-81F0-CEFB26912AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFF5CA7-76AA-465B-81F0-CEFB26912AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35E55FF-8B3C-4B4C-B339-F129BAC0A4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35E55FF-8B3C-4B4C-B339-F129BAC0A4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35E55FF-8B3C-4B4C-B339-F129BAC0A4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35E55FF-8B3C-4B4C-B339-F129BAC0A4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7285B7C6-F744-4797-947F-738742E8B7FF} = {21B8C38C-D7CF-4F36-8E20-3D371393AC89}
+		{1FC23A3B-AF55-4459-BC89-93D1BB9E9BF9} = {A41A2A92-6305-4994-A383-598AEBB3259F}
+		{769754A4-4619-4DE6-9586-9D7C09839704} = {A41A2A92-6305-4994-A383-598AEBB3259F}
+		{C0303411-9483-4570-B473-235E5B9B8E19} = {A41A2A92-6305-4994-A383-598AEBB3259F}
+		{426D7867-01CB-4AAE-A698-F8259952CC67} = {037294A5-99A2-4737-B308-AA4C007E4D32}
+		{140F5452-7A49-46B1-B8A3-A69855004C9F} = {A41A2A92-6305-4994-A383-598AEBB3259F}
+		{8218EDAE-CCD2-4F7C-B39B-7405CA2E03B4} = {98B481A4-A0E4-4B8E-8E73-2ECEF1473F3A}
+		{6ED0AA11-2751-4216-A718-C72290C4E174} = {21197F81-C804-4ED4-913B-25379D006CB7}
+		{14954374-5A57-4673-84F9-3C37FDB9D247} = {037294A5-99A2-4737-B308-AA4C007E4D32}
+		{9F774425-FB6F-4C50-AADC-A1DA78405C39} = {037294A5-99A2-4737-B308-AA4C007E4D32}
+		{5DEF79EA-7184-4603-B91D-B7539D3AB151} = {21197F81-C804-4ED4-913B-25379D006CB7}
+		{86514739-1BF0-4449-B479-5C284E2CEB29} = {21197F81-C804-4ED4-913B-25379D006CB7}
+		{005667DE-F068-4816-829A-CE907FD670DF} = {98B481A4-A0E4-4B8E-8E73-2ECEF1473F3A}
+		{258EC26A-4FC6-483C-AC93-46C79F60066C} = {98B481A4-A0E4-4B8E-8E73-2ECEF1473F3A}
+		{2DFF5CA7-76AA-465B-81F0-CEFB26912AD9} = {98B481A4-A0E4-4B8E-8E73-2ECEF1473F3A}
+		{C35E55FF-8B3C-4B4C-B339-F129BAC0A4D2} = {98B481A4-A0E4-4B8E-8E73-2ECEF1473F3A}
+	EndGlobalSection
+EndGlobal
