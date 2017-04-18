@@ -39,10 +39,5 @@ namespace AspNetMVC5Demo.Domian.Services
             return @default;
         }
 
-        // 用于验证，实体?还是服务来做???
-        public void Validate(AbortTask task, Account from, Account to)
-        {
-
-        }
     }
 }

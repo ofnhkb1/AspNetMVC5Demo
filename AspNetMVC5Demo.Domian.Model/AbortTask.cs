@@ -1,4 +1,6 @@
-﻿namespace AspNetMVC5Demo.Domian.Model
+﻿using System;
+
+namespace AspNetMVC5Demo.Domian.Model
 {
     public class AbortTask : EntityBase
     {
@@ -29,6 +31,15 @@
 
         public void Translate(Account from, Account to)
         {
+            if (from == null)
+            {
+                throw new ArgumentNullException();
+            }
+            if (to == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             this.From = from.Id;
             this.To = to.Id;
         }
