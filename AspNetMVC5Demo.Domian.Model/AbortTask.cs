@@ -23,12 +23,6 @@ namespace AspNetMVC5Demo.Domian.Model
 
         public int To { get; set; }
 
-        public void Translate(int from, int to)
-        {
-            this.From = from;
-            this.To = to;
-        }
-
         public void Translate(Account from, Account to)
         {
             if (from == null)
